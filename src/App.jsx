@@ -14,21 +14,21 @@ const memories = [
     number: '01',
     title: 'My favourite kind of together',
     text: 'This picture is a little reminder that even an ordinary moment becomes special when I get to share it with you. I’m sorry I let our anniversary pass without making you feel celebrated. You deserved that joy, and so much more.',
-    image: '/images/memory-01.jpg',
+    image: `${import.meta.env.BASE_URL}images/memory-01.jpg`,
     alt: 'A happy selfie together outdoors'
   },
   {
     number: '02',
     title: 'The person behind my smile',
     text: 'Look at you. I hope you never forget how lovely you are, inside and out. I should never need a date on a calendar to remind me to appreciate you. I’m sorry I fell short when it mattered.',
-    image: '/images/memory-02.png',
+    image: `${import.meta.env.BASE_URL}images/memory-02.png`,
     alt: 'A portrait of her smiling'
   },
   {
     number: '03',
     title: 'A little world of our own',
     text: 'This is one of those moments I want to keep close. Thank you for the laughter, the warmth and all the little memories we keep making. I can’t change the day I forgot, but I can be more thoughtful from here on.',
-    image: '/images/memory-03.png',
+    image: `${import.meta.env.BASE_URL}images/memory-03.png`,
     alt: 'A close selfie together'
   }
 ]
